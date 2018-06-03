@@ -1,133 +1,223 @@
 <!DOCTYPE html>
-<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
-	<title>Responsive Web Design</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="fonts/Metro-UI-CSS/css/metro-icons.css">
+	<title>Forms and Widgets</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
+<html>
 <body>
-	<input type="checkbox" id="navTrigger" class="show navTrigger"/>
-	<ul class="show navMenu">
-		<li class="navItem"><a href="#">Home</a></li>
-		<li class="navItem"><a href="#">About</a></li>
-		<li class="navItem"><a href="#">Work</a></li>
-		<li class="navItem"><a href="#">Services</a></li>
-		<li class="navItem"><a href="#">Recources</a></li>
-		<li class="navItem"><a href="#">Articles</a></li>
-		<li class="navItem"><a href="#">Contact</a></li>
-	</ul>
-	<div class="burger"><label class="show" for="navTrigger"></label></div>
-	<div class="container">
-		<header>
-			<a href="#"><picture class="picture"></picture></a>
-			<div class="logoStart">
-				<a href="#"><h1><b>Lispum</b> Media</h1></a>
+<div class="mainWrapper">
+	<div class="widgetRow">
+		<div class="widget calendar">
+			<div class="caption">
+				<span class="prev"><a href="#">&lt;</a></span>
+				<span class="next"><a href="#">&gt;</a></span>
+				May 2014
 			</div>
-			<nav class="mainNav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Recources</a></li>
-					<li><a href="#">Articles</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section class="section">
-			<h1>Lipsum media representation</h1>
-			<p class="wrap">
-				<div class="sectionInfo">
-					<picture class="picture"></picture>
-					<div class="info">
-						<em>Client</em>
-						<p>Jommy</p>
-						<em>Project description</em>
-						<p class="restrictLength">olor massa hac auctor! Ac, mauris massa. Sit pellentesque ridiculus pid, scelerasque augue amet parturient?</p>
-						<em>Sofware</em>
-						<p>Photoshop</p>
-						<em>Level of service</em>
-						<p>Photoshop</p>
-					</div>
-				</div>
-			</p>
-			<div class="article">
-				<h2>Project description</h2>
-				<picture class="picture"></picture>
-				<p>Ac aliquam pid amet, lorem eu, etiam ultrices, egestas. Et porttitor a, lacus egestas est rhoncus, egestas amet facilisis augue pellentesque. Nec? Velit tristique. Proin facilisis porta porttitor in tortor vel</p>
-				<a href="#" class="readMore">Read more</a>
-			</div>
-		</section>
-		<aside class="aside">
-			<div class="servicesList">
-				<div class="noughts borderHorizontal"></div>
-				<div class="noughts borderVertical"></div>
-				<div class="noughts borderHorizontal"></div>
-				<div class="noughts borderVertical"></div>
-				<div class="noughts borderHorizontal"></div>
-				<div class="noughts borderVertical"></div>
-				<div class="noughts borderHorizontal"></div>
-				<div class="noughts borderVertical"></div>
-
-				<h2 class="services">Our <em>Services</em></h2>
-				<ul>
-					<li><a href="#">Ac tristique sagittis turpis</a></li>
-					<li><a href="#">Duis mus nec porttitor</a></li>
-					<li><a href="#">Phasellus lectus cras</a></li>
-					<li><a href="#">Ac tristique sagittis turpis</a></li>
-					<li><a href="#">Ac tristique sagittis turpis</a></li>
-					<li><a href="#">Ac tristique sagittis turpis</a></li>
-				</ul>
-			</div>
-			<div class="didYouKnow">
-				<h2>Did you <em>know?</em></h2>
-				<p>Ac tristique sagittis turpis dis purus egestas! Duis mus nec porttitor hac ac dictumst, porttitor eros adipiscing elementum tincidunt urna mus porttitor odio, non tristique adipiscing lorem, sed nec vel adipiscing sit, quis platea parturient sit adipiscing et massa . Risus, placerat. Augue etiam et dis velit ut, auctor et, duis dolor nunc nunc, augue nisi nascetur, porta</p>
-				<a href="#" class="readMore">Read more</a>
-			</div>
-			<div class="contacts">
-				<h2><em>Contact</em></h2>
-				<ul class="contactsList">
-					<li><i class="mif-mobile mif-lg"></i><span class="number">203-810-4300</span></li>
-					<li><i class="mif-printer mif-lg"></i><span class="number">203-810-4333</span></li>
-					<li><i class="mif-mail mif-lg"></i><span class="text">Contact@lipsum.com</span></li>
-					<li><i class="mif-home mif-lg"></i><span class="text">50 Washington street</span></li>
-					<li><span class="text">Sute 1048</span></li>
-					<li><span class="text">lipsume 0644</span></li>
-				</ul>
-			</div>
-		</aside>
-		<aside class="clients">
-			<h2>Our <em>Clients</em></h2>
-			<ul class="clientList">
-				<li><a href="#"><span id="at"></span></a></li>
-				<li><a href="#"><span id="inc"></span></a></li>
-				<li><a href="#"><span id="aut"></span></a></li>
-				<li><a href="#"><span id="visa"></span></a></li>
-				<li><a href="#"><span id="polar"></span></a></li>
-				<li><a href="#"><span id="cap"></span></a></li>
-			</ul>
-		</aside>
-		<footer>
-			<a href="#"><img src="img/logo_end.png" alt="logo"></a>
-			<div class="logoEnd">
-				<a href="#"><h1><b>Lispum</b> Media</h1></a>
-			</div>
-			<nav class="repeatNav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Recources</a></li>
-					<li><a href="#">Articles</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-			<p>&copy 2009 Lipsum media, llc</p>
-		</footer>
+			<table class="cal">
+				<thead>
+					<tr>
+					  <th>Sun</th>
+					  <th>Mon</th>
+					  <th>Tue</th>
+					  <th>Wed</th>
+					  <th>Thu</th>
+					  <th>Fri</th>
+					  <th>Sat</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="off"><a href="#">29</a></td>
+						<td class="off"><a href="#">30</a></td>
+						<td><a href="#">1</a></td>
+						<td><a href="#">2</a></td>
+						<td><a href="#">3</a></td>
+						<td><a href="#">4</a></td>
+						<td><a href="#">5</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">6</a></td>
+						<td class="event"><a href="#">7</a></td>
+						<td><a href="#">8</a></td>
+						<td><a href="#">9</a></td>
+						<td><a href="#">10</a></td>
+						<td><a href="#">11</a></td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">13</a></td>
+						<td><a href="#">14</a></td>
+						<td><a href="#">15</a></td>
+						<td><a href="#">16</a></td>
+						<td><a href="#">17</a></td>
+						<td><a href="#">18</a></td>
+						<td><a href="#">19</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">20</a></td>
+						<td><a href="#">21</a></td>
+						<td><a href="#">22</a></td>
+						<td class="event"><a href="#">23</a></td>
+						<td><a href="#">24</a></td>
+						<td><a href="#">25</a></td>
+						<td><a href="#">26</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">27</a></td>
+						<td><a href="#">28</a></td>
+						<td><a href="#">29</a></td>
+						<td><a href="#">30</a></td>
+						<td class="off"><a href="#">1</a></td>
+						<td class="off"><a href="#">2</a></td>
+						<td class="off"><a href="#">3</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<button type="submit" class="event-button redButton">ADD EVENT</button>
+		</div>
 	</div>
+	<div class="widgetRow">
+		<div class="widget booking">
+			<header class="photo">
+				<h2 class="name">Hotel Relais</h2>
+				<button class="mapPoint"></button>
+				<div class="location">Paris, France</div>
+			</header>
+			<main class="info">
+				<form action="">
+					<dt><label>Check in</label></dt>
+					<dd><input class="field date" type="text" value="9 July, 2016"></dd>
+					<button class="calendar"></button>
+					<dt class="aaa"><p>Check out</p></dt>
+					<dd class="bbb"><input class="field date" type="text" value="16 July, 2016"></dd>
+					<button class="calendar ccc"></button>
+					<input class="check2" type="text">
+					<input type="checkbox" id="date">
+					<label for="date" class="checkLabel" checked></label>
+					<p class="flexibleDates">Flexible dates</p>
+					<div class="count">
+						<dt><p>Adults</p></dt>
+						<dd><input class="select" value="2"></input></dd>
+						<button class="roundedRectangle"></button>
+						<ul class="menu adults">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>
+					</div>
+					<div class="count">
+						<dt><p>Children</p></dt>
+						<dd><input class="select" value="1"></input></dd>
+						<button class="roundedRectangle"></button>
+						<ul class="menu children">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">More</a></li>
+						</ul>
+					</div>
+					<button type="submit" class="searchRooms redButton">
+							<p class="searchImg"></p>
+							SEARCH ROOMS
+					</button>
+				</form>
+			</main>
+		</div>
+		<div class="widget email">
+			<form>
+				<div class="fieldEmail">
+					<p class="email">rick.james@mail.com</p>
+					<button class="buttonRemove"></button>
+					<button class="buttonAdd"></button>
+				</div>
+				<input class="attachment" type="text" name="subject" placeholder="Subject">
+				<button class="addAttachment"></button>
+				<textarea class="message" name="inDate" placeholder="Message"></textarea>
+				<div class="areaSend">
+					<button type="submit" class="send redButton">SEND</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="widgetRow">
+		<div class="widget destination">
+			<nav>
+				<button></button>
+				<button></button>
+				<button></button>
+			</nav>
+			<main>
+				<h3>My most favourite<br>place in the world</h3>
+				<p class="reviewCount"><b>154</b> Reviews</p>
+				<p class="text">Lorem ipsum dolor sit amet,<br>
+				consectetur adipiscing elit. Maecenas a<br>
+				pulvinar ipsum. Aliquam sit amet laciulis<br>
+				dolor. Vivamus sed diam sollicitudin.</p>
+				<p class="text readMore"><a href="#">Read more<a></p>
+			</main>
+			<aside>
+				<img src="img/voice.png" class="voice">
+				<img src="img/heart.png" class="heart">
+				<div class="count voiceCount">752</div>
+				<div class="count heartCount">2709</div>
+			</aside>
+		</div>
+	    <div class="widget barGraph">
+			<ul class="x-axis">
+			  <li><span>Mon</span></li>
+			  <li><span>Tues</span></li>
+			  <li><span>Wed</span></li>
+			  <li><span>Thu</span></li>
+			  <li><span>Fri</span></li>
+			  <li><span>Sat</span></li>
+			  <li><span>Sun</span></li>
+			</ul>
+			<ul class="y-axis">
+			  <li><span>40</span></li>
+			  <li><span>30</span></li>
+			  <li><span>20</span></li>
+			  <li><span>0</span></li>
+			</ul>
+			<div class="bars">
+			  <div class="bar-group">
+				<div class="bar bar-1" style="height: 17.5%;">      
+				  <span>17</span>
+				</div>
+			  </div>
+			  <div class="bar-group">
+				<div class="bar bar-2" style="height: 22%;">
+				  <span>27</span>
+				</div>
+			  </div>
+			  <div class="bar-group">
+				<div class="bar bar-3" style="height: 42.7%;">
+					<span>52</span>
+				</div>
+				</div>
+			  <div class="bar-group">
+				<div class="bar bar-4" style="height: 57%;">
+				  <span>68</span>
+				</div>
+			  </div>
+			  <div class="bar-group">
+				<div class="bar bar-5" style="height: 46.5%;">
+				  <span>56</span>
+				</div>
+			  </div>
+			  <div class="bar-group">
+				<div class="bar bar-6" style="height: 61%;">
+				  <span>34</span>
+				</div>
+			  </div>
+			  <div class="bar-group">
+				<div class="bar bar-7" style="height: 51.5%;">
+				  <span>62</span>
+				</div>
+			  </div>
+			</div>
+		</div> 
+	</div>
+</div>
 </body>
 </html>

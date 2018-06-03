@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Real-Jquery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/blitzer/jquery-ui.css">
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/jquery.js"></script>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside>
+    <a href="#" class="collapse" title="collapse">&#8656;</a>
+    <p>Add your own tab</p>
+    <form name="newTab">
+      <div class="input-group">
+        <label for="text">Index</label>
+        <input type="text" id="text" placeholder="0">
+      </div>
+      <div class="input-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Enter title">
+      </div>
+      <div class="input-group">
+        <label for="html">HTML content</label>
+        <textarea id="html" placeholder="Enter content"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="datepicker">Datepicker</label>
+        <input type="text" id="datepicker" placeholder="Enter date">
+      </div>
+      <div class="input-group">
+        <label for="image">Image</label>
+        <input type="text" id="image" placeholder="img/image1.jpg">
+      </div>
+      <button class="add">ADD</button>
+      <button class="edit">EDIT</button>
+      <button class="reset">RESET</button>
+    </form>
+  </aside>
+  <main>
+    <a href="#" class="extend" title="collapse">&equiv;</a>
+    <div class="carousel shadow"> 
+      <div class="carousel-button-left">
+        <a class="switchButton" href="#"></a>
+      </div> 
+      <div class="carousel-button-right">
+        <a class="switchButton" href="#"></a>
+      </div> 
+      <div class="carousel-wrapper"> 
+        <div class="carousel-items"> 
+          <div class="carousel-block active">
+            <img src="img/image1.jpg" alt="" />
+          </div>
+          <div class="carousel-block">
+            <img src="img/image2.jpg" alt="" />
+          </div>
+          <div class="carousel-block">
+            <img src="img/image3.jpg" alt="" />
+          </div>
+          <div class="carousel-block">
+            <img src="img/image4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div> 
+    <ul class="tabs">
+      <li class="tab active">One</li>
+      <li class="tab">Two</li>
+      <li class="tab">Three</li>
+      <li class="tab">Four</li>
+    </ul>
+    <div class="container">
+      <div class="content active">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor tellus, sollicitudin at imperdiet vel, dignissim in urna. Suspendisse pretium fringilla est malesuada iaculis. Phasellus hendrerit, turpis eu accumsan molestie, nunc ex elementum est, posuere iaculis sem risus accumsan risus.</div>
+      <div class="content">Praesent vitae lacus eu mi convallis blandit. Duis faucibus nulla at odio lobortis, et egestas urna pulvinar. Morbi faucibus nunc nec ligula commodo, ac vestibulum velit suscipit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam et sagittis risus, vitae pulvinar nibh. Suspendisse non dignissim neque, sed lobortis libero. Cras varius luctus turpis, non cursus dolor dignissim in.</div>
+      <div class="content">Donec accumsan, felis et mollis efficitur, dolor magna aliquam quam, id bibendum velit augue sed mauris. Mauris ut augue at augue gravida malesuada sed ac elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Suspendisse ultrices suscipit tincidunt. Integer tristique, tortor id sodales vestibulum, sem lorem facilisis sapien, vitae condimentum est eros at augue.</div>
+      <div class="content">Integer sit amet faucibus sapien. Nulla quis luctus enim. In dolor risus, sollicitudin nec leo blandit, volutpat porta elit. Cras scelerisque, elit in consectetur dictum, sem ipsum tristique augue, et imperdiet velit magna sed velit. Quisque gravida, nisi at molestie euismod, sapien ipsum maximus magna, molestie maximus sem massa et augue. Ut sollicitudin est egestas tempor hendrerit. </div>
+      <p class="headerDate">Actual due date:</p>
+      <div class="dates">
+        <div class="date active">2016-02-09</div>
+        <div class="date">2016-02-11</div>
+        <div class="date">2016-02-28</div>
+        <div class="date">2016-03-02</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

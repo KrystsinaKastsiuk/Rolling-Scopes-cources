@@ -1,1 +1,1 @@
-Custom jQuery
+Real jQuery

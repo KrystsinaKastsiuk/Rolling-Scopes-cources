@@ -2,56 +2,132 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Workshop</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+	<title>Responsive Web Design</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/Metro-UI-CSS/css/metro-icons.css">
 </head>
 <body>
-	<div class="wrapper">
+	<input type="checkbox" id="navTrigger" class="show navTrigger"/>
+	<ul class="show navMenu">
+		<li class="navItem"><a href="#">Home</a></li>
+		<li class="navItem"><a href="#">About</a></li>
+		<li class="navItem"><a href="#">Work</a></li>
+		<li class="navItem"><a href="#">Services</a></li>
+		<li class="navItem"><a href="#">Recources</a></li>
+		<li class="navItem"><a href="#">Articles</a></li>
+		<li class="navItem"><a href="#">Contact</a></li>
+	</ul>
+	<div class="burger"><label class="show" for="navTrigger"></label></div>
+	<div class="container">
 		<header>
-			<a href="#">
-				<img src="img/logo.png"/>
-			</a>
-			<div class="title">
-				<h1>EPAM SYSTEMS</h1>
-				<h3>UI LAB TRAINING</h3>
+			<a href="#"><picture class="picture"></picture></a>
+			<div class="logoStart">
+				<a href="#"><h1><b>Lispum</b> Media</h1></a>
 			</div>
-			<div class="mainMenu">
-				<a href="#">About UI lab</a>
-				<a href="#">Home Tasks</a>
-				<a href="#">Tests & Exams</a>
-			</div>
+			<nav class="mainNav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Recources</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</header>
-		<div class="navigation">
-			<div class="content">
-				<nav>
-					<ul>
-						<li><a href="#">Vertical navigation sample</a></li>
-						<li><a href="#">Vertical navigation sample</a></li>
-						<li><a href="#">Vertical navigation sample</a></li>
-						<li><a href="#">Vertical navigation sample</a></li>
-						<li><a href="#">Vertical navigation sample</a></li>
-						<li><a href="#">Vertical navigation sample</a></li>
-					</ul>
-				</nav>
-				<section>
-					<h3>Level 2 Heading</h3>
-					<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque placerat arcu, eget dapibus sem ultrices consectetur. Aliquam sed volutpat tellus. Sed quis faucibus tellus. Sed porttitor est ac augue dictum in mattis felis venenatis. Morbi sem ipsum, laoreet in sagittis sed, pulvinar sit amet est. Phasellus commodo, dui vitae eleifend volutpat, elit lacus ullamcorper justo, at porta neque felis eu nibh. Vivamus sodales eleifend tortor eu mollis. In hac habitasse platea dictumst. Pellentesque fermentum ligula sit amet erat dapibus non fringilla nisl iaculis.
-					</article>
-					<h4>Level 3 heading</h4>
-					<ul>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-						<li><a href="#">Basic List Sample</a></li>
-					</ul>
-				</section>
-				<div class="clear"></div>
+		<section class="section">
+			<h1>Lipsum media representation</h1>
+			<p class="wrap">
+				<div class="sectionInfo">
+					<picture class="picture"></picture>
+					<div class="info">
+						<em>Client</em>
+						<p>Jommy</p>
+						<em>Project description</em>
+						<p class="restrictLength">olor massa hac auctor! Ac, mauris massa. Sit pellentesque ridiculus pid, scelerasque augue amet parturient?</p>
+						<em>Sofware</em>
+						<p>Photoshop</p>
+						<em>Level of service</em>
+						<p>Photoshop</p>
+					</div>
+				</div>
+			</p>
+			<div class="article">
+				<h2>Project description</h2>
+				<picture class="picture"></picture>
+				<p>Ac aliquam pid amet, lorem eu, etiam ultrices, egestas. Et porttitor a, lacus egestas est rhoncus, egestas amet facilisis augue pellentesque. Nec? Velit tristique. Proin facilisis porta porttitor in tortor vel</p>
+				<a href="#" class="readMore">Read more</a>
 			</div>
-		</div>
-	</div>	
-	<footer></footer>
+		</section>
+		<aside class="aside">
+			<div class="servicesList">
+				<div class="noughts borderHorizontal"></div>
+				<div class="noughts borderVertical"></div>
+				<div class="noughts borderHorizontal"></div>
+				<div class="noughts borderVertical"></div>
+				<div class="noughts borderHorizontal"></div>
+				<div class="noughts borderVertical"></div>
+				<div class="noughts borderHorizontal"></div>
+				<div class="noughts borderVertical"></div>
+
+				<h2 class="services">Our <em>Services</em></h2>
+				<ul>
+					<li><a href="#">Ac tristique sagittis turpis</a></li>
+					<li><a href="#">Duis mus nec porttitor</a></li>
+					<li><a href="#">Phasellus lectus cras</a></li>
+					<li><a href="#">Ac tristique sagittis turpis</a></li>
+					<li><a href="#">Ac tristique sagittis turpis</a></li>
+					<li><a href="#">Ac tristique sagittis turpis</a></li>
+				</ul>
+			</div>
+			<div class="didYouKnow">
+				<h2>Did you <em>know?</em></h2>
+				<p>Ac tristique sagittis turpis dis purus egestas! Duis mus nec porttitor hac ac dictumst, porttitor eros adipiscing elementum tincidunt urna mus porttitor odio, non tristique adipiscing lorem, sed nec vel adipiscing sit, quis platea parturient sit adipiscing et massa . Risus, placerat. Augue etiam et dis velit ut, auctor et, duis dolor nunc nunc, augue nisi nascetur, porta</p>
+				<a href="#" class="readMore">Read more</a>
+			</div>
+			<div class="contacts">
+				<h2><em>Contact</em></h2>
+				<ul class="contactsList">
+					<li><i class="mif-mobile mif-lg"></i><span class="number">203-810-4300</span></li>
+					<li><i class="mif-printer mif-lg"></i><span class="number">203-810-4333</span></li>
+					<li><i class="mif-mail mif-lg"></i><span class="text">Contact@lipsum.com</span></li>
+					<li><i class="mif-home mif-lg"></i><span class="text">50 Washington street</span></li>
+					<li><span class="text">Sute 1048</span></li>
+					<li><span class="text">lipsume 0644</span></li>
+				</ul>
+			</div>
+		</aside>
+		<aside class="clients">
+			<h2>Our <em>Clients</em></h2>
+			<ul class="clientList">
+				<li><a href="#"><span id="at"></span></a></li>
+				<li><a href="#"><span id="inc"></span></a></li>
+				<li><a href="#"><span id="aut"></span></a></li>
+				<li><a href="#"><span id="visa"></span></a></li>
+				<li><a href="#"><span id="polar"></span></a></li>
+				<li><a href="#"><span id="cap"></span></a></li>
+			</ul>
+		</aside>
+		<footer>
+			<a href="#"><img src="img/logo_end.png" alt="logo"></a>
+			<div class="logoEnd">
+				<a href="#"><h1><b>Lispum</b> Media</h1></a>
+			</div>
+			<nav class="repeatNav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Recources</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<p>&copy 2009 Lipsum media, llc</p>
+		</footer>
+	</div>
 </body>
 </html>

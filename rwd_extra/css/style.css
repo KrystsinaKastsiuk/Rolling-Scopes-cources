@@ -1,0 +1,121 @@
+/*
+* Response Web Design (extra)
+* 
+* This file represents block structure on the index page
+* 
+* @author Krystsina Kastsiuk kristina.v.kostyuk@gmail.com;
+*/
+body {
+  max-width: 612px;
+  flex-basis: 612px;
+  margin: 0 auto; 
+  font-family: 'SourceSansPro';
+}
+@font-face {
+  font-family: SourceSansPro; 
+  src: url(../fonts/SourceSansPro.ttf);
+}
+.wrapper {
+  flex-basis: 612px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header {
+  flex-basis: 612px;
+  max-width: 612px; 
+  height: 80px;
+  background: #CCC8BA;
+  order: 1;
+}
+.header h3 {
+  padding: 10px 0 0 5px;
+  margin: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.nav {
+  flex-basis: 132px;
+  max-width: 132px;
+  background: #EBE9E3;
+  order: 2;
+}
+.nav h5 {
+  padding: 9px 0 0 7px;
+  margin: 0;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  padding-left: 10px;
+}
+.main {
+  flex-basis: 374px;
+  max-width: 374px;
+  background: #E7E3D4;
+  order: 3;
+  padding: 5px;
+}
+.main .first {
+  width: 350px;
+  background:  #FEFEFE;
+  border-radius: 3%;
+  margin: 0 auto;
+}
+.main .second {
+  width: 350px;
+  background:  #FEFEFE;
+  border-radius: 3%;
+  margin: 0 auto;
+}
+.main h3 {
+  position: relative;
+  top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.main img {
+  display: inline-block;
+  float: left;
+  padding: 0px 10px 0px 5px;
+}
+.main p {
+  font-size: 12px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.aside {
+  flex-basis: 96px;
+  max-width: 96px;
+  background: #FEFEFE;
+  order: 4;
+  padding: 0;
+  margin: 0;
+}
+.aside h6 {
+  padding: 8px 0 0 5px;
+  margin: 0px;
+  font-size: 12px;
+}
+.footer {
+  flex-basis: 612px;
+  max-width: 612px;
+  height: 80px;
+  background: #CCC8BA;
+  order: 5;
+}
+.footer h4 {
+  margin: 11px 5px;
+  height: 80px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+ ul {
+  list-style: none;
+  font-size: 12px;
+}

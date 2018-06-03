@@ -1,1 +1,1 @@
-JS assignments
+Custom jQuery

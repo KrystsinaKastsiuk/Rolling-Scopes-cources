@@ -1,1 +1,1 @@
-Final css task
+JS assignments
